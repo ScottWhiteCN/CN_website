@@ -1,6 +1,13 @@
 /* BACKGROUND COLOUR */
-* {
+body {
     background-color:linen;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(47, 248, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* HEADING 1 */
@@ -47,11 +54,20 @@ p {
     width: 500px;
 }
 
-.box_r {
+.box_c {
     color: darkorange;
     font-size: medium;
     font-family: sans-serif;
-    text-align: left;
+    text-align:center;
     padding: 15px;
     width: 500px;
+}
+
+.container {
+    display: flex;
+    color:goldenrod;
+    min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
